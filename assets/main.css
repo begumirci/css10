@@ -1,0 +1,53 @@
+@import url(./reset.css);
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.deneme {
+  padding-inline: 165px;
+  background-color: white;
+}
+
+.url-img {
+  background-image: url(../12px.svg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+
+  & img {
+    width: 120px;
+    height: 120px;
+  }
+
+  & div {
+    margin-inline: 350px;
+  }
+}
+
+.img {
+  float: left;
+}
+
+.dene {
+  & div {
+    background-color: red;
+    border: 1px solid black;
+  }
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.space {
+  flex-grow: 1;
+}
+
+.footer {
+  margin-top: auto;
+}
